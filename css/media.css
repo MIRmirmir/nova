@@ -1,0 +1,98 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1280px) {
+
+.planemenu img{
+	display: none;
+}
+
+}
+
+@media only screen and (max-width : 1200px) {
+.planemenu {
+    text-align: left;
+}
+
+.main_menu ul li{
+display: block;}
+
+.menu_font {
+  font-size: 18pt;
+}
+
+.planemenu {
+	display: none;
+}
+.main_menu ul li:hover{
+   background: transparent; /* Цвет фона под ссылкой */ 
+    text-decoration: underline;
+    color: #f7941d; 
+    transition:all 0.25s}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.mesto {background-color: #ebe2d8;
+  margin-top: -22px;
+  text-align: left;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.mesto {background-color: #ebe2d8;
+  margin-top: -22px;
+  text-align: left;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.menu_font {
+  font-size: 16pt;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu_font {
+  font-size: 16pt;
+}
+.navcustom {
+margin-right: -30px !important;}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.menu_font {
+  font-size: 21pt;
+}
+}

@@ -1,0 +1,343 @@
+
+.menu_font {
+
+  font-family:'Conv_b52',Sans-Serif;
+  font-size: 22pt;
+  color: rgb(55, 55, 55);
+  line-height: 1.2;
+}
+
+
+.adress_font{
+  font-size: 16px;
+  font-family: 'Conv_b52';
+  color: rgb(55, 55, 55);
+  line-height: 1.2;
+}
+
+
+.ribon_font {
+  font-size: 12px;
+  font-family: "Franklin Gothic Heavy";
+  color: rgb(255, 252, 252);
+  line-height: 1.2;
+}
+
+.circle_up_font {
+  font-size: 65px;
+  font-family: "Arial";
+  color: rgb(255, 252, 252);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.circle_down_font {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 252, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.circle_middle_font {
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 252, 252);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;  
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+}
+
+.top_header {
+  background-image: url("../images/menuholder.png");
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 55;
+}
+
+.logotype {
+ padding-top: 20px;
+ max-width: 260px;
+ min-width: 220px;
+}
+.logotype img {
+ width: 100%;
+ max-width: 260px;
+ min-width: 180px;
+}
+
+.planemenu {
+ padding-top: 30px;
+ opacity: 0.5;
+ text-align: right;
+}
+
+.main_menu {
+  text-transform:  uppercase; 
+  text-align: right;
+}
+
+.main_menu ul{
+  list-style-type: none;
+}
+
+.main_menu ul li{
+  display: inline-block;
+}
+
+
+.main_menu ul li:hover{
+ background: #f7941d; /* Цвет фона под ссылкой */ 
+ color: #ffe; 
+ transition:all 0.25s}
+
+ .adress {
+  text-transform:  none; 
+  text-align: right;
+
+}
+.mesto {
+  margin-top: -10px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+  padding-top: 20px;
+  font-size: 16px;
+  background-color: #fffcfc;
+  border-width: 0px;
+  border-radius: 0px;
+  margin-right: 0px;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+  color: rgba(119, 119, 119, 1);
+  background-color: rgba(255, 255, 255, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(247, 148, 29, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(85, 85, 85, 1);
+  background-color: rgba(247, 177, 27, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #f7b11b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #f7b11b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f7b11b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #f8f8f8;
+}
+
+.nopadding {
+  padding:0px;
+}
+
+.top-line {
+  height: 5px;
+  background-color: cyan;
+}
+
+.head_font {
+  font-family: 'Conv_FRADM', Arial;
+  font-size: 22pt;
+  color: rgb(55, 55, 55);
+  line-height: 1.2;
+}
+
+.clearb {
+  clear:both;
+  display: inline-block;
+  width: 100%;
+}
+.uslugi_header {
+  background-image: url("../images/redribon.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+
+.zagolovok {
+  color: white;
+  text-align: center;
+  vertical-align: top;
+
+}
+.zagolovok h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.usluga {
+ background-repeat: no-repeat;
+ height: 300px;
+ min-width: 160px;
+ text-align: center;
+ background-position:center;
+ margin-left: 15px;
+ margin-right: 15px;
+ font-family: 'Conv_FRADM', Arial;
+ font-size: 14pt;
+ color: #f55906;
+ line-height: 1.2;
+ text-transform:  uppercase; 
+}
+.usluga a{
+  display: inline-block;
+  margin-top: 185px;
+  color: #f55906;
+
+}
+
+.usluga1{
+ background-image: url("../images/beach.png"); 
+}
+.usluga2{
+ background-image: url("../images/sanatori.png"); 
+}
+.usluga3{
+ background-image: url("../images/detski.png"); 
+}
+.usluga4{
+ background-image: url("../images/shkolni.png"); 
+}
+.usluga5{
+ background-image: url("../images/semeini.png"); 
+}
+.usluga6{
+ background-image: url("../images/plane2.png"); 
+ height: 215px;
+ margin-top: 55px;
+ margin-left: 5px;
+ background-position: right top;
+}
+
+.usluga6 a{
+  display: inline-block;
+  margin-top: 145px;
+  margin-left: -115px;
+  color: white;
+  position: absolute;
+}
+.usluga6 img{
+  margin-top: 125px;
+  margin-left: -25px;
+  color: #f55906;
+}
+
+.sec2 {
+
+  background-color: #ebe2d8;
+  padding-bottom: 100px;
+}
+.fonimg {
+  position: absolute;
+  margin-left: -1800px;
+  margin-top: 200px;
+}
+
+.circle {
+  width: 200px; /* задаете свои размеры */
+  height: 200px;
+  overflow: hidden;
+  background: #fff;
+  padding: 5px; /* создание отступов */
+  border-radius: 50%;
+  /* не забываем о кроссбраузерности */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: #fff 9px solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.circleiner {
+ overflow: hidden;
+  width: 100%; /* задаете свои размеры */
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 5px; /* создание отступов */
+  border-radius: 50%;
+  /* не забываем о кроссбраузерности */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: #fff 2px solid;
+
+  background-color: rgba(255, 255, 255, 0);
+
+}
+.label1 {
+  width: 150px;
+}
+.label2 {
+  width: 150px;
+  margin-top: 0px;
+}
+.inlineblock {
+  display: inline-block; 
+}
+.padd {
+  margin:  50px 10px 50px 10px;
+
+}
+.padd2 {
+  margin:  30px 30px 10px 30px;
+
+
+
+}
+
+.onas {
+  font-family: 'Conv_FRADM', Arial;
+  font-size: 16pt;
+  color: white;
+  line-height: 1.2;
+  background-image: url("../images/more2.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 338px;
+  height: 56px;
+  text-align: center;
+  margin: 0px auto;
+
+
+}
+.onas a{
+  font-family: 'Conv_FRADM', Arial;
+  font-size: 16pt;
+  color: white;
+  line-height: 1.2;
+  margin-top: 12px;
+
+
+}
+.fonimg2 {
+  position: absolute;
+  margin-left: -330px;
+  margin-top: 200px;
+  width: 15%;
+}
+
+.centr  {
+  margin: 0 auto;
+
+}
