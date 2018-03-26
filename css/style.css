@@ -366,7 +366,7 @@ body {
 }
 
 .partner{
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 90px;
 
 }
@@ -482,4 +482,75 @@ body {
   margin-top: -190px;
   width: 10%;
   display: block;
+}
+.divider {
+    height: 100%;
+    margin: 9px 0;
+    overflow: hidden;
+   
+}
+.divider:after {
+  content: "|";
+    background-color: rgba(247, 148, 29, 0);
+}
+.divider:hover {
+  background-color: rgba(247, 148, 29, 0);
+}
+.divider:focus {
+  background-color: rgba(247, 148, 29, 0);
+}
+.footer {
+  background-image: url("../images/pesok.jpg"); 
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+   color: #FFFFFF;
+  font-size: 16px;
+
+  
+}
+
+.footer a{
+ color: #FFFFFF; 
+}
+.footer li {
+  list-style-type: none;
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.borderright{
+border-right: 1px solid white;
+}
+
+.dark{
+ background-color: rgba(20, 20, 20, 0.5); 
+ padding: 5px 7px 20px 7px;
+}
+.dark h3{
+ padding-left: 35px;
+ color:#83d0f6;
+
+}
+.dark h4{
+  padding-top: 15px;
+ padding-left: 35px;
+ color:#83d0f6;
+
+}
+.dark img{
+width: 40px;
+height: 40px;
+padding: 3px;
+}
+
+.pull_right{
+  text-align:right;
+  display: block;
+  font-size: 12px;
+  padding-right: 30px;
 }

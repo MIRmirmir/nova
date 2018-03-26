@@ -62,15 +62,15 @@
 											<ul class="nav navbar-nav navbar-right">
 												<li><a href="#">Услуги</a>
 												</li>
-												<li role="separator" class="divider">
+												<li role="separator" class="divider hidden-xs hidden-sm">
 													<li ><a href="#">Поиск тура</a>
 													</li>
-													<li role="separator" class="divider"></li>  
+													<li role="separator" class="divider hidden-xs hidden-sm"></li>  
 													<li>
 														<a href="#">О нас</a>
 
 													</li>
-													<li role="separator" class="divider"></li>  
+													<li role="separator hidden-xs hidden-sm" class="divider hidden-xs hidden-sm"></li>  
 												</li>  
 												<li><a href="#">Гид по странам</a>
 												</li>
@@ -296,7 +296,7 @@
 		<section class="clearb sec2 inershadow">
 			<div class="row text-center">
 
-				<span class="vopros">ОСТАЛИСЬ ВОПРОСЫ?</span>
+				<span class="vopros animfadeinleft">ОСТАЛИСЬ ВОПРОСЫ?</span>
 
 				<form name="Form4" method="post" action="index.php" enctype="multipart/form-data" accept-charset="UTF-8" id="Form2">
 					<input id="Editbox1"   name="Имя" value="" required="" placeholder="ВАШЕ ИМЯ" type="text">
@@ -308,7 +308,83 @@
 			</div>	
 
 		</section>
+		<section class="clearb">
+			<div class="footer clearb">
+				
+				<div class="col-md-12 ">
+					<div class="row row-flex">
+						<div class="col-md-2"></div>
+						<div class="col-md-2 borderright dark">
+							<h3>Виды отдыха</h3>
+							<ul>
+								<li><a href="#">Пляжный отдых</a></li>
+								<li><a href="#">Отдых в санатории</a></li>
+								<li><a href="#">Детский отдых</a></li>
+								<li><a href="#">Школьные туры</a></li>
+								<li><a href="#">Семейный отдых</a></li>
+								<li><a href="#">Горнолыжные курорты</a></li>
+								<li><a href="#">Экскурсионный отдых и круизы</a></li>
+							</ul>
 
+						</div>
+						<div class="col-md-2 borderright dark">
+							<h3>Услуги</h3>
+							<ul>
+								<li><a href="#">Заказ тура</a></li>
+								<li><a href="#">Заказ авиабилетов</a></li>
+								<li><a href="#">Заказ Ж/Д билетов</a></li>
+								<li><a href="#">Бронирование гостиниц</a></li>
+								<li><a href="#">Визы и паспорта</a></li>
+								
+								<li><a href="#">Выдача документов</a></li>
+								<li><a href="#">Страхование</a></li>
+							</ul>
+
+						</div>
+						<div class="col-md-2 borderright dark">
+							<h3>Информация</h3>
+							<ul><li><a href="#">Акции</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Памятка туриста</a></li>
+								<li><a href="#">Погода на курортах</a></li>
+								<li><a href="#">Наши награды</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">О нас</a></li>
+
+								
+							</ul>
+
+						</div>
+						<div class="col-md-2  dark">
+							<h4>ООО "Центр туризма "НОВА"</h4>
+							
+							<span class="pull_right">
+								г.Нефтекамск, пр. Комсомольский, 44<br>
+								тел.: 8(34783) 3-99-77, 6-52-25,<br> 89033557778 
+							</span><br>
+							<span class="pull_right">
+								Лицензия №123456788 
+							</span>
+							<br>
+							<span class="pull_right">
+							<a href="#"><img src="images/email.png" alt=""></a>
+							<a href="#"><img src="images/facebok.png" alt=""></a>
+							<a href="#"><img src="images/instagram.png" alt=""></a>
+							<a href="#"><img src="images/odnoklassniki.png" alt=""></a>
+							<a href="#"><img src="images/skype.png" alt=""></a>
+							<a href="#"><img src="images/telegram.png" alt=""></a>
+							<a href="#"><img src="images/telephone.png" alt=""></a>
+							<a href="#"><img src="images/vk.png" alt=""></a>
+							<a href="#"><img src="images/youtube.png" alt=""></a>
+</span>
+						</div>
+						<div class="col-md-2"></div>
+
+
+					</div>
+				</div>	
+			</div>
+		</section>
 		<!-- HTML code from https://getbootstrap.com/getting-started/ -->
 
 	<!--[if lt IE 9]>
@@ -368,7 +444,10 @@
 			classToAdd: 'visibleanim animated pulse',
 			offset: 350
 		});
-
+		jQuery('.animfadeinleft').addClass("hiddenanim").viewportChecker({
+			classToAdd: 'visibleanim animated fadeInLeft',
+			offset: 150
+		});
 	});
 </script>
 
