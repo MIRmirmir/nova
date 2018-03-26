@@ -247,7 +247,7 @@ body {
 .sec2 {
 
   background-color: #ebe2d8;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .fonimg {
   position: absolute;
@@ -271,18 +271,18 @@ body {
 
 .circleiner {
  overflow: hidden;
-  width: 100%; /* задаете свои размеры */
-  height: 100%;
-  overflow: hidden;
-  background: #fff;
-  padding: 5px; /* создание отступов */
-  border-radius: 50%;
-  /* не забываем о кроссбраузерности */
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border: #fff 2px solid;
+ width: 100%; /* задаете свои размеры */
+ height: 100%;
+ overflow: hidden;
+ background: #fff;
+ padding: 5px; /* создание отступов */
+ border-radius: 50%;
+ /* не забываем о кроссбраузерности */
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ border: #fff 2px solid;
 
-  background-color: rgba(255, 255, 255, 0);
+ background-color: rgba(255, 255, 255, 0);
 
 }
 .label1 {
@@ -340,4 +340,146 @@ body {
 .centr  {
   margin: 0 auto;
 
+}
+
+.karta{
+ background-image: url("../images/karta.jpg"); 
+ height: 500px;
+ margin-top: -10px;
+
+ background-position: center, center;
+ box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+ -webkit-box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+ -moz-box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+}
+.podlogka {
+  background-image: url("../images/podlogka.png"); 
+  height: 147px;
+  background-repeat: no-repeat;
+  background-position: top, center;
+  margin-top: 30px;
+}
+
+.hash-adress1{
+  color: #0090D8;
+  margin-top: 10px;
+}
+
+.partner{
+  margin-top: 30px;
+  margin-bottom: 90px;
+
+}
+
+.partner div img {
+  margin: 30px 10px 10px 10px;
+
+  border: 6px solid blue;
+
+  overflow: hidden;
+
+  overflow: hidden;
+  background: #fff;
+  padding: 5px; /* создание отступов */
+  border-radius: 50%;
+  /* не забываем о кроссбраузерности */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: #fff 6px solid;
+
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.hiddenanim{
+  opacity:0;
+}
+.visibleanim{
+  opacity:1;
+}
+
+
+#Editbox1 {
+  border: 1px #BFC2C4 solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #2F4F4F;
+  font-size: 21px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  vertical-align: middle;
+  width:212px
+  height:61px;
+  line-height:38px;
+}
+
+#Editbox3 {
+  border: 1px #C0C0C0 solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #2F4F4F;
+  font-size: 21px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 20px;
+  width:259px;
+  height:61px;
+  line-height:38px;
+}
+
+#submitvopros {
+  width:190px;height:61px;
+  border: 1px #0090D8 solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #0090D8;
+  color: #FFFFFF;
+  font-size: 21px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+  -webkit-box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+  -moz-box-shadow:2px 2px 5px 0px rgba(0,0,0,1);
+  margin-left: 20px;
+}
+
+#wb_Text7
+{
+  text-shadow: 0px -1px #ffff44;
+  color: red;
+}
+
+.vopros{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color:#0090D8;
+  font-size:68px;
+  display: block;
+}
+
+.inershadow {
+  box-shadow:2px 2px 8px 0px rgba(0,0,0,0.47)inset;
+  -webkit-box-shadow:2px 2px 8px 0px rgba(0,0,0,0.47)inset;
+  -moz-box-shadow:2px 2px 8px 0px rgba(0,0,0,0.47)inset;
+}
+.fonimg3 {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -200px;
+  width: 15%;
+  display: block;
+}
+.fonimg4 {
+  position: absolute;
+  margin-left: 1500px;
+  margin-top: -190px;
+  width: 10%;
+  display: block;
 }

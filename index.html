@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/media.css" />
-
+	<link rel="stylesheet" href="css/animate.css"/>
 
 
 
@@ -66,11 +66,13 @@
 													<li ><a href="#">Поиск тура</a>
 													</li>
 													<li role="separator" class="divider"></li>  
-													<li><a href="#">Гид по странам</a>
+													<li>
+														<a href="#">О нас</a>
+
 													</li>
 													<li role="separator" class="divider"></li>  
 												</li>  
-												<li><a href="#">О нас</a>
+												<li><a href="#">Гид по странам</a>
 												</li>
 											</ul>
 										</div>
@@ -88,6 +90,7 @@
 								<div class="col-md-12">
 									<img src="images/scissors.png" alt="Линия надреза">	
 								</div>
+								<div style="min-height: 80px;"></div>
 							</div>
 
 						</div>
@@ -108,14 +111,19 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 container center-block ">		
+			<div class="col-md-12  ">		
 				<div class="col-lg-3"> </div>
-				<div class="col-md-1 usluga1 usluga"><a href="#">Пляжный отдых</a></div>
-				<div class="col-md-1 usluga2 usluga"><a href="#">Санаторий</a></div>
-				<div class="col-md-1 usluga3 usluga"><a href="#">Детский отдых</a></div>
-				<div class="col-md-1 usluga4 usluga"><a href="#">Школьные туры</a></div>
-				<div class="col-md-1 usluga5 usluga"><a href="#">Семейный отдых</a></div>
-				<div class="col-md-1 usluga6 usluga"><img src="images/more.png"><a href="#">И Ещё...</a></div>
+				<div class="col-md-1 usluga1 usluga"><a href="#">Пляжный отдых</a>
+				</div>
+				<div class="col-md-1 usluga2 usluga"><a href="#">Санаторий</a>
+				</div>
+				<div class="col-md-1 usluga3 usluga"><a href="#">Детский отдых</a>
+				</div>
+				<div class="col-md-1 usluga4 usluga"><a href="#">Школьные туры</a>
+				</div>
+				<div class="col-md-1 usluga5 usluga"><a href="#">Семейный отдых</a>
+				</div>
+				<div class="col-md-1 usluga6 usluga animpulse"><img src="images/more.png"><a href="#">И Ещё...</a></div>
 				<div class="col-lg-2"> </div>	
 			</div>
 		</div>
@@ -198,7 +206,7 @@
 				</div>
 			</div>
 			<div class=" clearb"> 
-				<div class="onas clearb"><a class="clearb" href="#">Узнать подробнее о нас.</a></div>
+				<div class="onas clearb animpulse"><a class="clearb" href="#">Узнать подробнее о нас.</a></div>
 
 			</div>
 		</div>
@@ -245,20 +253,63 @@
 					</div>	
 				</div>
 
-<img class="fonimg2 hidden-xs hidden-sm hidden-md" src="images/bagage.png">
+				<img class="fonimg2 hidden-xs hidden-sm hidden-md" src="images/bagage.png">
 			</div>
-			
-
-
-
 		</div>
-	</row>
+	</section>
 
-</section>
+	<section class="clearb partner">
+		<div class="col-md-12 container uslugi_header">	
+			<span class="zagolovok"><h2>НАШИ ПАРТНЕРЫ</h2> 
+			</span>
+		</div>
+		<div class="row">
+			<div class="col-md-12 clearb text-center">
+
+				<img class="postanim" src="images/pegas.png" alt="Пегас туристик" >	
+
+				<img class="postanim" src="images/tez.png" alt="Тез тур" >	
+
+				<img class="postanim" src="images/coral.png" alt="Корал тревел" >	
+
+				<img class="postanim" src="images/anex.png" alt="Анекс тур" >	
+				<img class="postanim" src="images/alean.png" alt="Алеан" >	
 
 
+			</div>
+		</div>	
+	</section>
 
-<!-- HTML code from https://getbootstrap.com/getting-started/ -->
+
+	<section>
+		<div class="container-fluid clearb karta text-center" >
+			<div class="podlogka">
+
+				<span class="hash-adress1 clearb">МЫ НАХОДИМСЯ ПО АДРЕСУ:</span>
+				<span class="hash-adress2">НЕФТЕКАМСК, ПР. КОМСОМОЛЬСКИЙ, Д.44</span>
+			</div>
+
+
+		</section>
+
+
+		<section class="clearb sec2 inershadow">
+			<div class="row text-center">
+
+				<span class="vopros">ОСТАЛИСЬ ВОПРОСЫ?</span>
+
+				<form name="Form4" method="post" action="index.php" enctype="multipart/form-data" accept-charset="UTF-8" id="Form2">
+					<input id="Editbox1"   name="Имя" value="" required="" placeholder="ВАШЕ ИМЯ" type="text">
+					<input id="Editbox3"  name="Телефон" value="" required="" placeholder="ВАШ ТЕЛЕФОН" type="text">
+					<input id="submitvopros"   name="" value="ОТПРАВИТЬ"  type="submit">
+				</form>
+				<img class="fonimg3 hidden-xs hidden-sm hidden-md" src="images/bagage.png">
+				<img class="fonimg4 hidden-xs hidden-sm hidden-md" src="images/compas.png">
+			</div>	
+
+		</section>
+
+		<!-- HTML code from https://getbootstrap.com/getting-started/ -->
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -280,6 +331,9 @@
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.spincrement.js"></script>
+<script type="text/javascript" src="js/jquery.viewportchecker.js"></script>
+
+
 <!-- Меню -->
 <script type="text/javascript">
 
@@ -303,6 +357,21 @@
 	});
 	});
 </script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.postanim').addClass("hiddenanim").viewportChecker({
+			classToAdd: 'visibleanim animated jackInTheBox',
+			offset: 150
+		});
+		jQuery('.animpulse').addClass("hiddenanim").viewportChecker({
+			classToAdd: 'visibleanim animated pulse',
+			offset: 350
+		});
+
+	});
+</script>
+
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 
